@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+}
+
+input {
+  display: block;
+
+}
+
+.remove {
+  width : 20px;
+  height: 20px;
+}
+
+.edit {
+  width : 30px;
+  height: 30px;
+}
+
+li {
+  display: flex;
+
+  img {
+    display: none;
+  }
+}
+
+li:hover img {
+  display: inline;
+}
