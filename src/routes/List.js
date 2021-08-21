@@ -7,7 +7,7 @@ export default function List({ value }) {
 
   useEffect(() => {
     setEvents(JSON.parse(localStorage.getItem(value.toDateString())))
-  }, [value])
+  }, [value, events])
   return (
     <div className="right">
       <ul>
